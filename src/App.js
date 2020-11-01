@@ -14,9 +14,9 @@ function App() {
     <>
      <Switch>
        <Route exact path="/" component={LiveMatch}  />
-       <Route exact path="cricketlive/upcomeing" component={UpcomeingGame}  />
-       <Route  exact path="cricketlive/todaymatch" component={TodayMatch}  />
-       <Route exact path="cricketlive/recentmatch" component={Apifetch}  />
+       <Route exact path="/upcomeing" component={UpcomeingGame}  />
+       <Route  exact path="/todaymatch" component={TodayMatch}  />
+       <Route exact path="/recentmatch" component={Apifetch}  />
        <Redirect to="/" />
       
      </Switch>
