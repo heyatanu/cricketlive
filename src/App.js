@@ -5,7 +5,9 @@ import UpcomeingGame from './UpcomeingGame';
 import TodayMatch from './TodayMatch';
 import LiveMatch from './LiveMatch';
 import {Route,Switch} from 'react-router-dom';
-
+function Er(){
+  return(<h1>EEERRROOOORRRR</h1>)
+}
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
        <Route exact path="cricketlive/upcomeing" component={UpcomeingGame}  />
        <Route  exact path="cricketlive/todaymatch" component={TodayMatch}  />
        <Route exact path="cricketlive/recentmatch" component={Apifetch}  />
-       <Route component={LiveMatch} />
+       <Route component={Er} />
       
      </Switch>
     
