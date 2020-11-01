@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cricketlive/static/css/main.005fcb16.chunk.css",
-    "main.js": "/cricketlive/static/js/main.e10c3823.chunk.js",
-    "main.js.map": "/cricketlive/static/js/main.e10c3823.chunk.js.map",
-    "runtime-main.js": "/cricketlive/static/js/runtime-main.d3d2cd97.js",
-    "runtime-main.js.map": "/cricketlive/static/js/runtime-main.d3d2cd97.js.map",
+    "main.css": "/cricketlive/static/css/main.b409a9d4.chunk.css",
+    "main.js": "/cricketlive/static/js/main.3490da1b.chunk.js",
+    "main.js.map": "/cricketlive/static/js/main.3490da1b.chunk.js.map",
+    "runtime-main.js": "/cricketlive/static/js/runtime-main.3adcf98a.js",
+    "runtime-main.js.map": "/cricketlive/static/js/runtime-main.3adcf98a.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/cricketlive/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.69e851e1.chunk.js": "/cricketlive/static/js/2.69e851e1.chunk.js",
-    "static/js/2.69e851e1.chunk.js.map": "/cricketlive/static/js/2.69e851e1.chunk.js.map",
-    "static/js/3.2701342a.chunk.js": "/cricketlive/static/js/3.2701342a.chunk.js",
-    "static/js/3.2701342a.chunk.js.map": "/cricketlive/static/js/3.2701342a.chunk.js.map",
+    "static/js/2.5276f9b8.chunk.js": "/cricketlive/static/js/2.5276f9b8.chunk.js",
+    "static/js/2.5276f9b8.chunk.js.map": "/cricketlive/static/js/2.5276f9b8.chunk.js.map",
+    "static/js/3.409810c9.chunk.js": "/cricketlive/static/js/3.409810c9.chunk.js",
+    "static/js/3.409810c9.chunk.js.map": "/cricketlive/static/js/3.409810c9.chunk.js.map",
     "index.html": "/cricketlive/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/cricketlive/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.005fcb16.chunk.css.map": "/cricketlive/static/css/main.005fcb16.chunk.css.map",
-    "static/js/2.69e851e1.chunk.js.LICENSE.txt": "/cricketlive/static/js/2.69e851e1.chunk.js.LICENSE.txt"
+    "static/css/main.b409a9d4.chunk.css.map": "/cricketlive/static/css/main.b409a9d4.chunk.css.map",
+    "static/js/2.5276f9b8.chunk.js.LICENSE.txt": "/cricketlive/static/js/2.5276f9b8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3d2cd97.js",
+    "static/js/runtime-main.3adcf98a.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.69e851e1.chunk.js",
-    "static/css/main.005fcb16.chunk.css",
-    "static/js/main.e10c3823.chunk.js"
+    "static/js/2.5276f9b8.chunk.js",
+    "static/css/main.b409a9d4.chunk.css",
+    "static/js/main.3490da1b.chunk.js"
   ]
 }
