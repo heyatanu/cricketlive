@@ -1,6 +1,6 @@
 {
-  "homepage": "http://heyatanu.github.io/cricketlive",
-  "name": "cricketapi",
+  "homepage": "https://heyatanu.github.io/cricketlive",
+  "name": "reactapi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
