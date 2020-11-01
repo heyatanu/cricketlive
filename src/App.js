@@ -1,4 +1,4 @@
-import './App.css';
+
 import React from 'react';
 import Apifetch from './RecentGameApifetch';
 import UpcomeingGame from './UpcomeingGame';
@@ -7,7 +7,7 @@ import LiveMatch from './LiveMatch';
 import {Route,Switch} from 'react-router-dom';
 
 function EOORr(){
-  return(<p>ib</p>)
+  return(<p>Error</p>)
 }
 function App() {
   return (
@@ -20,10 +20,6 @@ function App() {
        <Route component={EOORr} />
       
      </Switch>
-      {/* <TodayMatch/>
-      <UpcomeingGame/>
-        <Apifetch/>
-        <LiveMatch/> */}
 
     </>
   );
