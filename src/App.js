@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Apifetch from './RecentGameApifetch';
+import UpcomeingGame from './UpcomeingGame';
+import TodayMatch from './TodayMatch';
+import LiveMatch from './LiveMatch';
+import {Route,Switch} from 'react-router-dom';
 
+function EOORr(){
+  return(<p>ib</p>)
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <Switch>
+       <Route exact  path="/" component={LiveMatch}  />
+       <Route exact path="/upcomeing" component={UpcomeingGame}  />
+       <Route exact path="/todaymatch" component={TodayMatch}  />
+       <Route exact path="/recentmatch" component={Apifetch}  />
+       <Route component={EOORr} />
+      
+     </Switch>
+      {/* <TodayMatch/>
+      <UpcomeingGame/>
+        <Apifetch/>
+        <LiveMatch/> */}
+
+    </>
   );
 }
 
